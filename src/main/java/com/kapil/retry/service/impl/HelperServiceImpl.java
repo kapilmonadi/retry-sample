@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelperServiceImpl implements HelperService {
 
-    private static Logger logger = LoggerFactory.getLogger(HelperServiceImpl.class);
+    private static final Logger logger = LoggerFactory.getLogger(HelperServiceImpl.class);
 
     @Override
     public String getHelloMessage() {
